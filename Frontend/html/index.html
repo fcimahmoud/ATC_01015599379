@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Booking - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">EventBook</div>
+      <div class="nav-links">
+        <a href="#" id="admin-link" style="display:none;">Admin Panel</a>
+        <a href="#" id="logout-link">Logout</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Upcoming Events</h1>
+    <div class="event-filters">
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="music">Music</option>
+        <option value="sports">Sports</option>
+        <option value="art">Art</option>
+      </select>
+    </div>
+    
+    <div class="events-grid" id="events-container">
+      <!-- Events will be loaded here dynamically -->
+    </div>
+  </main>
+
+  <script src="js/helpers.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>

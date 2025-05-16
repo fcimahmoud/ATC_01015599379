@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Confirmed</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">EventBook</div>
+      <div class="nav-links">
+        <a href="#" id="admin-link" style="display:none;">Admin Panel</a>
+        <a href="#" id="logout-link">Logout</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="congrats-container">
+    <div class="congrats-card">
+      <div class="checkmark">✓</div>
+      <h1>Booking Confirmed!</h1>
+      <p id="event-confirmation"></p>
+      <div class="action-buttons">
+        <a href="index.html" class="button primary">Browse More Events</a>
+        <a href="#" id="my-bookings-link" class="button secondary">My Bookings</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/helpers.js"></script>
+  <script src="js/congrats.js"></script>
+</body>
+</html>
