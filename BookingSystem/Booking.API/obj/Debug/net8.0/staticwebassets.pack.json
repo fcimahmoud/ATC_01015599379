@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Areeb Task\\Booking System\\BookingSystem\\Booking.API\\wwwroot\\uploads\\images\\events\\ab6d364b-f954-487e-9f11-ef3a3446892a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\events\\ab6d364b-f954-487e-9f11-ef3a3446892a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Booking.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Booking.API.props",
+      "PackagePath": "build\\Booking.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Booking.API.props",
+      "PackagePath": "buildMultiTargeting\\Booking.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Booking.API.props",
+      "PackagePath": "buildTransitive\\Booking.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -69,6 +69,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
       }
     },
     "D:\\Areeb Task\\Booking System\\BookingSystem\\Core\\Services.Abstractions\\Services.Abstractions.csproj": {
@@ -136,6 +141,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     },
@@ -211,6 +221,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     },
@@ -293,6 +308,11 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
       }
     },
     "D:\\Areeb Task\\Booking System\\BookingSystem\\Shared\\Shared.csproj": {
@@ -359,6 +379,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }

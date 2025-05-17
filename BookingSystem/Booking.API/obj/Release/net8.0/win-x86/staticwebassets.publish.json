@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "XNGItGzZ9/eFDIk8t7Z9KG1pKLJVT2CemQ4sNcr1lLE=",
+  "Source": "Booking.API",
+  "BasePath": "_content/Booking.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Booking.API\\wwwroot",
+      "Source": "Booking.API",
+      "ContentRoot": "D:\\Areeb Task\\Booking System\\BookingSystem\\Booking.API\\wwwroot\\",
+      "BasePath": "_content/Booking.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Areeb Task\\Booking System\\BookingSystem\\Booking.API\\wwwroot\\uploads\\images\\events\\ab6d364b-f954-487e-9f11-ef3a3446892a.jpg",
+      "SourceId": "Booking.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Areeb Task\\Booking System\\BookingSystem\\Booking.API\\wwwroot\\",
+      "BasePath": "_content/Booking.API",
+      "RelativePath": "uploads/images/events/ab6d364b-f954-487e-9f11-ef3a3446892a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\images\\events\\ab6d364b-f954-487e-9f11-ef3a3446892a.jpg"
+    }
+  ]
+}

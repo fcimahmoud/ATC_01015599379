@@ -1,0 +1,13 @@
+D:\Areeb Task\Booking System\BookingSystem\Shared\bin\Release\net8.0\Shared.deps.json
+D:\Areeb Task\Booking System\BookingSystem\Shared\bin\Release\net8.0\Shared.dll
+D:\Areeb Task\Booking System\BookingSystem\Shared\bin\Release\net8.0\Shared.pdb
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.csproj.AssemblyReference.cache
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.AssemblyInfoInputs.cache
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.AssemblyInfo.cs
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.csproj.CoreCompileInputs.cache
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.sourcelink.json
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.dll
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\refint\Shared.dll
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\Shared.pdb
+D:\Areeb Task\Booking System\BookingSystem\Shared\obj\Release\net8.0\ref\Shared.dll
