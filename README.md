@@ -106,7 +106,6 @@ A full-stack web application that allows users to browse, book, and manage event
 
 ```bash
 📁 Frontend/
-├── index.html
 ├── login.html
 ├── register.html
 ├── confirm-email.html
