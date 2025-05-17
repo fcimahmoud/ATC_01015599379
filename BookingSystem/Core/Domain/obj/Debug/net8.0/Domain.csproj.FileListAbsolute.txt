@@ -1,0 +1,13 @@
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\bin\Debug\net8.0\Domain.dll
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.dll
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Areeb Task\Booking System\BookingSystem\Core\Domain\obj\Debug\net8.0\ref\Domain.dll
