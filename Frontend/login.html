@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - EventSys</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gradient-orange">
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card p-4 shadow-lg rounded-4" style="width: 100%; max-width: 400px;">
+      <h3 class="text-center text-warning">Welcome to EventSys</h3>
+      <p class="text-center text-muted">Please login to continue</p>
+      <form id="loginForm">
+        <div class="mb-3">
+          <label for="email" class="form-label text-dark">Email address</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label text-dark">Password</label>
+          <input type="password" class="form-control" id="password" required>
+        </div>
+        <button type="submit" class="btn btn-warning w-100">Login</button>
+        <div class="text-center mt-3">
+          <a href="forgot-password.html" class="text-secondary">Forgot Password?</a><br>
+          <a href="register.html" class="text-secondary">Don't have an account? Register</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

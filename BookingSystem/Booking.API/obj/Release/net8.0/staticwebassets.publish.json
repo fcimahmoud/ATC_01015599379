@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "B2H0mOrFO8urVC4JAdUAC5fyfDkH/jkp8AZYdwUWowM=",
+  "Source": "Booking.API",
+  "BasePath": "_content/Booking.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Booking.API\\wwwroot",
+      "Source": "Booking.API",
+      "ContentRoot": "D:\\Areeb Task\\Booking System\\BookingSystem\\Booking.API\\wwwroot\\",
+      "BasePath": "_content/Booking.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

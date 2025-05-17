@@ -1,74 +1,52 @@
-document.addEventListener('DOMContentLoaded', async () => {
-  checkAuth();
-  
-  const eventId = new URLSearchParams(window.location.search).get('id');
-  if (!eventId) {
-    window.location.href = 'index.html';
-    return;
-  }
-  
+const API_BASE = "https://eventsys.runasp.net/api";
+const token = localStorage.getItem("authToken");
+const userId = localStorage.getItem("userId");
+const urlParams = new URLSearchParams(window.location.search);
+const eventId = urlParams.get("id");
+
+async function fetchEventDetails() {
+  const res = await fetch(`${API_BASE}/Events/${eventId}`, {
+    headers: { Authorization: `Bearer ${token}` }
+  });
+  if (!res.ok) throw new Error("Failed to fetch event details");
+  return await res.json();
+}
+
+async function bookEvent() {
   try {
-    const event = await fakeEventAPI.getEventById(eventId);
-    if (!event) {
-      window.location.href = 'index.html';
-      return;
-    }
-    
-    document.getElementById('event-name').textContent = event.name;
-    document.getElementById('event-date').textContent = formatDate(event.date);
-    document.getElementById('event-venue').textContent = event.venue;
-    document.getElementById('event-price').textContent = `$${event.price}`;
-    document.getElementById('event-category').textContent = event.category;
-    document.getElementById('event-description').textContent = event.description;
-    document.getElementById('event-image').src = event.image || 'default-event.jpg';
-    
-    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
-    if (currentUser) {
-      const userBookings = await fakeBookingAPI.getUserBookings(currentUser.id);
-      const isBooked = userBookings.some(b => b.eventId === event.id);
-      
-      if (isBooked) {
-        document.getElementById('book-button').style.display = 'none';
-        document.getElementById('booked-label').style.display = 'block';
-      }
-    }
-    
-    document.getElementById('book-button').addEventListener('click', async () => {
-      if (!currentUser) {
-        window.location.href = 'auth.html';
-        return;
-      }
-      
-      try {
-        await fakeBookingAPI.createBooking({
-          userId: currentUser.id,
-          eventId: event.id,
-          bookingDate: new Date().toISOString()
-        });
-        
-        window.location.href = `congrats.html?eventId=${event.id}`;
-      } catch (error) {
-        alert('Failed to book event');
-      }
+    const res = await fetch(`${API_BASE}/Bookings/book?eventId=${eventId}&userId=${userId}`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${token}` }
     });
-    
-    // Admin link visibility
-    if (currentUser && currentUser.role === 'admin') {
-      document.getElementById('admin-link').style.display = 'block';
-      document.getElementById('admin-link').addEventListener('click', (e) => {
-        e.preventDefault();
-        window.location.href = 'admin.html';
-      });
-    }
-    
-    // Logout
-    document.getElementById('logout-link').addEventListener('click', (e) => {
-      e.preventDefault();
-      localStorage.removeItem('currentUser');
-      window.location.href = 'auth.html';
-    });
-    
-  } catch (error) {
-    window.location.href = 'index.html';
+    if (!res.ok) throw new Error(await res.text());
+    const booked = JSON.parse(localStorage.getItem("bookedEvents") || "[]");
+    booked.push(eventId);
+    localStorage.setItem("bookedEvents", JSON.stringify(booked));
+    window.location.href = "congrats.html";
+  } catch (err) {
+    alert("Booking failed: " + err.message);
   }
-});
+}
+
+async function renderEvent() {
+  try {
+    const e = await fetchEventDetails();
+    document.getElementById("eventDetails").innerHTML = `
+      <div class="card shadow-lg">
+        <img src="${e.imageUrl}" class="card-img-top" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+          <h3 class="card-title">${e.name}</h3>
+          <p class="text-muted">${new Date(e.date).toLocaleDateString()} - ${e.venue}</p>
+          <p><strong>Category:</strong> ${e.category}</p>
+          <p><strong>Price:</strong> $${e.price}</p>
+          <p>${e.description}</p>
+          <button class="btn btn-success" onclick="bookEvent()">Book Now</button>
+        </div>
+      </div>
+    `;
+  } catch (err) {
+    document.getElementById("eventDetails").innerHTML = `<p class="text-danger">Error: ${err.message}</p>`;
+  }
+}
+
+renderEvent();
