@@ -8,8 +8,6 @@ namespace Persistence.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Booking> builder)
         {
-            builder.HasKey(b => new { b.EventId, b.UserId });
-
             builder.HasOne(b => b.Event)
                    .WithMany(e => e.Bookings)
                    .HasForeignKey(b => b.EventId);

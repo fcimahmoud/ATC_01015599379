@@ -165,3 +165,5 @@ D:\Areeb Task\Booking System\BookingSystem\Booking.API\obj\Debug\net8.0\refint\B
 D:\Areeb Task\Booking System\BookingSystem\Booking.API\obj\Debug\net8.0\Booking.API.pdb
 D:\Areeb Task\Booking System\BookingSystem\Booking.API\obj\Debug\net8.0\Booking.API.genruntimeconfig.cache
 D:\Areeb Task\Booking System\BookingSystem\Booking.API\obj\Debug\net8.0\ref\Booking.API.dll
+D:\Areeb Task\Booking System\BookingSystem\Booking.API\obj\Debug\net8.0\Booking.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Areeb Task\Booking System\BookingSystem\Booking.API\bin\Debug\net8.0\Booking.API.staticwebassets.runtime.json

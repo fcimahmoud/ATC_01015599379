@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d87w6pG2Zdc=",
+  "dgSpecHash": "PSTTwAnN4sc=",
   "success": true,
   "projectFilePath": "D:\\Areeb Task\\Booking System\\BookingSystem\\Infrastructure\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.16\\microsoft.aspnetcore.cryptography.internal.8.0.16.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.16\\microsoft.aspnetcore.cryptography.keyderivation.8.0.16.nupkg.sha512",
+    "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.16\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.16.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.16\\microsoft.entityframeworkcore.8.0.16.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.16\\microsoft.entityframeworkcore.abstractions.8.0.16.nupkg.sha512",
@@ -27,7 +28,8 @@
     "C:\\Users\\Blyatsho\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Blyatsho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\Blyatsho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\Blyatsho\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\Blyatsho\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

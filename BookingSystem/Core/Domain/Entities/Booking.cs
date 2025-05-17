@@ -1,7 +1,7 @@
 ﻿
 namespace Domain.Entities
 {
-    public class Booking
+    public class Booking : BaseEntity<string>
     {
         public string? EventId { get; set; }
         public Event? Event { get; set; }
